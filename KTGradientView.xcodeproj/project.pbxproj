@@ -15,6 +15,7 @@
 		E3D08A7D1C21928200ECB595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D08A7B1C21928200ECB595 /* LaunchScreen.storyboard */; };
 		E3D08A881C21928200ECB595 /* KTGradientViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D08A871C21928200ECB595 /* KTGradientViewTests.m */; };
 		E3D08A931C21928200ECB595 /* KTGradientViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D08A921C21928200ECB595 /* KTGradientViewUITests.m */; };
+		E3D08AA21C21961800ECB595 /* KTGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D08AA11C21961800ECB595 /* KTGradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E3D08A8E1C21928200ECB595 /* KTGradientViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTGradientViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D08A921C21928200ECB595 /* KTGradientViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTGradientViewUITests.m; sourceTree = "<group>"; };
 		E3D08A941C21928200ECB595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D08AA01C21961800ECB595 /* KTGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTGradientView.h; sourceTree = SOURCE_ROOT; };
+		E3D08AA11C21961800ECB595 /* KTGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTGradientView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E3D08A711C21928200ECB595 /* AppDelegate.m */,
 				E3D08A731C21928200ECB595 /* ViewController.h */,
 				E3D08A741C21928200ECB595 /* ViewController.m */,
+				E3D08AA01C21961800ECB595 /* KTGradientView.h */,
+				E3D08AA11C21961800ECB595 /* KTGradientView.m */,
 				E3D08A761C21928200ECB595 /* Main.storyboard */,
 				E3D08A791C21928200ECB595 /* Assets.xcassets */,
 				E3D08A7B1C21928200ECB595 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				E3D08A751C21928200ECB595 /* ViewController.m in Sources */,
 				E3D08A721C21928200ECB595 /* AppDelegate.m in Sources */,
 				E3D08A6F1C21928200ECB595 /* main.m in Sources */,
+				E3D08AA21C21961800ECB595 /* KTGradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
